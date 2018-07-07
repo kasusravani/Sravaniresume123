@@ -1,0 +1,31 @@
+.main{
+  background: darkgreen;
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  background: yellow;
+  width:25%;
+
+}
+.left img{
+  width:30%;
+}
+.right{
+  background:hotpink;
+  width:73%;
+}
+@media only screen and(min-device-width:460px)and(max-device-width:760px){
+  .main{
+    width:100%;
+  }
+  .left{
+    width:100%;
+    flex-wrap:wrap;
+  }
+  .left1{
+    width:100%;
+  }
+
+}
+}
